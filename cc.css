@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100vh;
+    
+     width: 100vw; 
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+   
+}
+
+
+.container{
+height: 50vh;
+    width: 40vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(182, 147, 66);
+    border-radius: 1rem;
+
+
+   
+
+}
+form{
+    margin-top: 1rem;
+}
+
+form input{
+    height: 2rem;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 0.3rem;
+    padding-left: 0.5rem;
+
+
+}
+
+.select{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin-top: 1rem;
+}
+form select{
+    font-size: 12px;
+    font-weight: bold;
+    width: 3rem;
+    padding-left: 1px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 0.1rem;
+    margin-left: 4px;
+    background:#C0C9EE;
+    color: #021210;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    
+     
+
+}
+
+form img{
+    height: 2rem;
+}
+
+form button{
+    height: 2rem;
+    width: 13rem;
+   
+    font-size: 1rem;
+    outline: none;
+     border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    background: rgb(36, 1, 9);
+    color: white;
+     margin-top: 1rem;
+     cursor: pointer;
+
+    
+}
+
+form p{
+    margin-top: 1rem;
+    position: relative;
+    left: 51px;
+    
+     color: #021210;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width:700px ) and (min-width:600px) {
+   @media only screen and (max-width:700px ) and (min-width:600px) {
+    h1{
+        font-size: 23px;
+    }
+}
+}
+
+@media only screen and (max-width:600px ) and (min-width:500px) {
+   .container{
+    width: 50vw;
+   }
+  h1{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:500px ) and (min-width:400px) {
+   .container{
+    width: 56vw;
+   }
+  h1{
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width:400px ) and (min-width:300px) {
+   .container{
+    width: 75vw;
+   }
+  h1{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:300px ) and (min-width:200px) {
+   .container{
+    width: 90vw;
+   }
+  h1{
+        font-size: 23px;
+    }
+}
+
+
+
+    
